@@ -5,7 +5,7 @@ import random
 import requests
 from urllib.parse import quote
 
-login_url = 'http://tiku.hanfocus.com/ajax/getapi/studLogin'
+login_url = 'http://sddxs.sdsafeschool.gov.cn:7007/#/pages/public/login/ajax/getapi/studLogin'
 
 login_params = {
     'school_title': '',
@@ -15,7 +15,7 @@ login_params = {
 }
 
 login_headers = {
-    'Referer': 'http://tiku.hanfocus.com/pc/login',
+    'Referer': 'http://sddxs.sdsafeschool.gov.cn:7007/#/pages/public/login',
     'User-Agent': 'User-Agent,Mozilla/5.0 (Windows NT 6.1; rv:60.0) Gecko/20100101 Firefox/60.0'
 }
 
